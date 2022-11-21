@@ -1,0 +1,54 @@
+.header { 
+    display: flex; 
+    flex-direction: column;
+}
+.header__logo {
+    font-variant: small-caps;
+}
+
+.main-nav { 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.main-nav__item {}
+
+.btn {
+    padding: 8px 16px;
+}
+.btn_theme-grey {
+    background-color: aqua;
+    color: hotpink;
+}
+
+
+
+.text-center { text-align: center; }
+
+.bdr { border: 1px solid;}
+
+.pd-1 { padding: 2px;}
+.pd-2 { padding: 4px;}
+.pd-3 { padding: 6px;}
+.pd-4 { padding: 8px;}
+.pd-5 { padding: 10px;}
+
+.pdl-0 { padding-left: 0;}
+
+.mr-0 { margin: 0;}
+.mr-1 { margin: 2px;}
+.mr-2 { margin: 4px;}
+.mr-3 { margin: 6px;}
+.mr-4 { margin: 8px;}
+.mr-5 { margin: 10px;}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: gold;
+}
